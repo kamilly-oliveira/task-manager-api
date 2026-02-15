@@ -1,7 +1,11 @@
 # ===============================
-# Node / NestJS
+# Dependencies
 # ===============================
 node_modules/
+
+# ===============================
+# Build output
+# ===============================
 dist/
 coverage/
 
@@ -9,14 +13,8 @@ coverage/
 # Environment variables
 # ===============================
 .env
-.env.local
-.env.development
-.env.production
-
-# ===============================
-# Prisma
-# ===============================
-prisma/migrations/**/migration_lock.toml
+.env.*
+!.env.example
 
 # ===============================
 # Logs
